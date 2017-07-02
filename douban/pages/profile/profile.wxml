@@ -1,0 +1,30 @@
+<view class="profile-header">
+    <view class="profile">
+      <image class="poster" src="../../images/avatar.jpg"></image>
+      <view class="meta">
+      @CT
+      </view>
+    </view>
+</view>
+<scroll-view class="page-body" scroll-y>
+<view class="profile-list">
+  <image class="icon" src="../../images/love.png"></image>
+  <view class="des">喜欢</view>
+</view>
+<view class="profile-list">
+  <image class="icon" src="../../images/diary.png"></image>
+  <view class="des">日记</view>
+</view>
+<view class="profile-list">
+  <image class="icon" src="../../images/read.png"></image>
+  <view class="des">读书</view>
+</view>
+<view class="profile-list">
+  <image class="icon" src="../../images/order.png"></image>
+  <view class="des">订单</view>
+</view>
+<view class="profile-list">
+  <image class="icon" src="../../images/wallet.png"></image>
+  <view class="des">钱包</view>
+</view>
+</scroll-view>

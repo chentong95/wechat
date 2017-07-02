@@ -1,0 +1,31 @@
+page{
+  font-family: "Microsoft YaHei";
+  display: flex;
+  flex-direction: column;
+}
+.movie-body{
+  padding-left:14rpx;
+  padding-right: 14rpx;
+}
+.movie-page{
+  display: flex;
+  padding:10rpx 40rpx;
+}
+.movie-page .poster{
+  width:500rpx;
+  height:600rpx;
+  margin:20rpx auto;
+}
+.intro{
+  flex:1;
+  font-size:26rpx;
+  height:50rpx;
+  line-height: 50rpx;
+  color:#ccc;
+}
+.summary{
+  font-size:34rpx;
+  height:60rpx;
+  line-height: 60rpx;
+  color:#999;
+}

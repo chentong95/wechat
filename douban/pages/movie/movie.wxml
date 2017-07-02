@@ -1,0 +1,30 @@
+<scroll-view class="movie-body" scroll-y>
+    <view class="movie-page">
+    <image class="poster" src="{{movie.images.large}}"></image>
+    </view>
+    <view class="intro">
+    名称：{{movie.title}}
+    </view>
+    <view class="intro">
+    又名：{{movie.original_title}}
+    </view>
+    <view class="intro">
+    导演：<text wx:for="{{movie.directors}}">{{item.name}}</text>
+    </view>
+    <view class="intro">
+    主演：<text wx:for="{{movie.casts}}">{{item.name}}、</text>
+    </view>
+    <view class="intro">
+    制片国家/地区: <text>{{movie.countries}}</text>
+    </view>
+    <view class="intro">
+    类型：<text>{{movie.genres}}</text>
+    </view>
+    <view class="intro">
+    年份：<text>{{movie.year}}</text>
+    </view>
+    <view class="">剧情简介：</view>
+    <view class="summary">
+    {{movie.summary}}
+    </view>
+</scroll-view>

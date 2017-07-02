@@ -1,0 +1,36 @@
+.profile-header{
+  border-bottom: 2rpx dotted #ccc;
+}
+.profile{
+  display: flex;
+  padding:20rpx 20rpx;
+}
+.profile .poster{
+  width:128rpx;
+  height:128rpx;
+  border-radius: 50%;
+}
+.profile .meta{
+  padding-left:20rpx;
+  height:128rpx;
+  line-height:128rpx; 
+  flex:1;
+}
+.page-body{
+  margin-top:40rpx;
+}
+.profile-list{
+  display: flex;
+  padding:20rpx 20rpx;
+  border-bottom: 2rpx dotted #ccc;
+}
+.profile-list .icon{
+  width:64rpx;
+  height:64rpx;
+}
+.profile-list .des{
+  padding-left:20rpx;
+  height:64rpx;
+  line-height:64rpx; 
+  flex:1;
+}
